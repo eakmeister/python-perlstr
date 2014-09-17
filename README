@@ -1,0 +1,13 @@
+This is a project to bring perl-style string substitution to Python. Why?
+Because I wanted to see if I could. Example:
+
+    import perlstr
+    test = 42
+    print '\\$test = $test'()
+    # prints '$test = 42'
+
+In order to have python run the substitution, simply call the string. Simple,
+right? Again you ask why, and again the answer is "because". I wanted to make
+Python do it automatically on all string literals, but I couldn't find a way to
+do that from within Python. If you find a way, let me know.
+
